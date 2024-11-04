@@ -2,6 +2,7 @@
 :root {
 	--couleurPrincipale: #0d1117;
 	--couleurTexte     : #FFFFFF;
+	--couleurAccent     : #14192e;
 }
 
 /* Éléments de base */
@@ -27,7 +28,7 @@ main {
 
 header,
 footer {
-	background-color: #14192e;
+	background-color: var(--couleurAccent);
 }
 
 footer {
