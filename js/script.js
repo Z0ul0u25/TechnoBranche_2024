@@ -8,7 +8,6 @@ let main = null;
  * @param {HTMLElement} image miniature de l'image à afficher en plein écran
  */
 function AfficherImagePleinEcran(image) {
-	console.log("CLICK");
 	// On crée un élément <div> qui va contenir l'image en plein écran
 	let ImageSuperpose = document.createElement('div');
 	ImageSuperpose.id = 'superposition';
@@ -38,11 +37,9 @@ function AfficherImagePleinEcran(image) {
 function initialisation() {
 	images = document.querySelectorAll('#galerie img');
 	main = document.querySelector('main');
-	console.log(images);
 
 	// On ajoute un écouteur d'événement sur chaque image
 	images.forEach(function(image) {
-		console.log(image);
 		image.addEventListener('click', function() {
 			// On appelle la fonction showImage en lui passant l'image cliquée en paramètre
 			AfficherImagePleinEcran(image);
