@@ -53,6 +53,32 @@ main img {
 	column-gap: 16px;
 }
 
+#superposition{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.66);
+	z-index: 999;
+
+	display: flex;
+	flex-direction: column;
+	margin : 0 auto;
+}
+
+#superposition img {
+	max-width: max(100vh, 100%);
+	margin : min(10vh, 10%) auto;
+}
+
+#superposition p {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.66);
+	width: 50%;
+	margin : 0 auto;
+}
+
 /* TODO : grid fonctionnel */
 /* #galerie.grid {
 	width: 100%;
