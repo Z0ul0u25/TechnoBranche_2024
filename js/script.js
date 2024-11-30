@@ -25,9 +25,12 @@ function AfficherImagePleinEcran(image) {
 	ImageSuperpose.appendChild(img);
 
 	// On crée un élément <p> qui va contenir le texte alternatif de l'image
-	let p = document.createElement('p');
-	p.textContent = image.alt;
-	ImageSuperpose.appendChild(p);
+	let pAlt = document.createElement('p');
+	let pInformation = document.createElement('p');
+	pAlt.innerHTML = image.alt;
+	pInformation.innerHTML = "Cliquez sur l'image pour fermer";
+	ImageSuperpose.appendChild(pAlt);
+	ImageSuperpose.appendChild(pInformation);
 }
 
 /**

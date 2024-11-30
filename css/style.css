@@ -89,6 +89,10 @@ main img {
 	column-gap: 16px;
 }
 
+#galerie img {
+	cursor: zoom-in;
+}
+
 #superposition {
 	position        : absolute;
 	top             : 0;
@@ -101,6 +105,8 @@ main img {
 	display       : flex;
 	flex-direction: column;
 	margin        : 0 auto;
+
+	cursor: zoom-out;
 }
 
 #superposition img {
