@@ -1,22 +1,53 @@
 <!DOCTYPE html>
 <html lang="fr">
+<!--
+  -- Le Fichier HTML est le skelette d'un site web.
+  -- Celui-ci contient les balises qui permettent de structurer le contenu
+  -->
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<!--
+	  -- Lien vers une page de style CSS
+	  -- Le code CSS est la style du site web.
+	  -- Il permet de définir la couleur, la taille, la police de caractère
+	  -- et plus encore.
+	  -->
 	<link rel="stylesheet" href="css/style.css">
+
+	<!--
+	  -- Lien vers le code JavaScript
+	  -- Le code JavaScript est le cerveau du site web.
+	  -- Il permet de rendre le site web interactif.
+	  -->
 	<script src="js/script.js" defer></script>
-	<title>Techno Branché 2024</title>
+
+	<!-- La balise <title>
+	  -- Cette balise contient le texte qui sera affiché dans l'onglet du navigateur.
+	  -- Le titre permet aussi de référencer le site web dans les moteurs de recherche.
+	  -->
+	<!-- TODO: Ajouter votre nom à la place de "Mon_Nom" -->
+	<title>Techno Branché 2024 | Mon_Nom </title>
 </head>
 
-<body>
+<body class="flex">
 	<header>
 		<img src="images/logo_technobranche.png" alt="Logo Techno Branché">
 	</header>
 	<main>
+		<!-- Les balises <h1> à <h6> sont utilisé pour les titres de page. -->
+		<!-- TODO: Changez le texte de la balise <h1> ci dessous pour le thème que vous avez choisi -->
 		<h1>Mon Thème</h1>
 		<div id="galerie" class="flex">
+			<!-- Les balises <img>
+			  -- Elles permettent d'afficher une image sur la page web avec certains attributs.
+			  -- L'attribut 'src' contient le lien vers l'image.
+			  -- L'attribut 'alt' contient un texte qui sera affiché si l'image
+			  -- ne peut pas être chargée. Il est aussi utilisé par les
+			  -- lecteurs d'écran pour les personnes malvoyantes.
+			  -->
+			<!-- TODO: Remplacez les images par les vôtres. Utiliser les deux premier exemple pour vous aider. -->
 			<img src="images/miniatures/exemple.jpg" alt="code Python à l'écran">
 			<img src="images/miniatures/grand_exemple.jpg" alt="code C plus plus à l'écran grand">
 			<img src="https://placehold.co/256x256" alt="placehold">

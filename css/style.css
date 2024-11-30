@@ -4,9 +4,8 @@
  * Les polices de caractères sont importées depuis Google Fonts.
  * On utilise une instruction @import pour importer les polices depuis la source voulu.
  * Les instruction @import doivent être placées en début de fichier.
- *
- * Remplacez la valeur de l'URL par l'URL de la police que vous souhaitez utiliser.
  */
+/* TODO: Remplacez la valeur de l'URL par l'URL de la police que vous souhaitez utiliser. */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 /* VARIABLES */
@@ -15,29 +14,42 @@
  * Elles sont accessibles partout dans le fichier CSS.
  * On peut les utiliser pour définir des couleurs, des tailles, des polices, etc.
  *
- * Changez les valeurs des variables pour modifier l'apparence de votre site.
  * Il y a plusieurs façons de définir une couleur en CSS :
- * - les noms de couleurs (ex: red, blue, green)
  * - les valeurs hexadécimales (ex: #FF0000, #00FF00, #0000FF)
- * - les valeurs RGB (ex: rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255))
+ * - les noms de couleurs (ex: red, blue, green)
  * - les valeurs HSL (ex: hsl(0, 100%, 50%), hsl(120, 100%, 50%), hsl(240, 100%, 50%))
+ * - les valeurs RGB (ex: rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255))
+ * - Il est possible de remplacer RGB pou RGBA afin d'ajouter de la transparence.
  */
+/* TODO: Changez les valeurs des variables pour modifier l'apparence de votre site. */
 :root {
 	--couleurPrincipale: #0d1117;
 	--couleurTexte     : white;
 	--couleurAccent    : hsl(228, 39%, 13%);
-	--couleurFlou      : rgba(0, 0, 0, 0.7); /* Ajour du a pour la transparance */
+	--couleurFlou      : rgba(0, 0, 0, 0.7);
 }
+
+.flex {
+	/* TODO: Changer le mode d'affichage pour 'display: flex;' */
+	display: inline;
+}
+
 
 /* Éléments de base */
 body {
+	/*
+	 * font-family définit la police de caractères utilisée pour le texte.
+	 */
+	/* TODO: Changez la font-family pour afficher votre police de choix */
+	font-family: 'Nunito Sans', monospace;
+
+
+
 	background-color: var(--couleurPrincipale);
 	color           : var(--couleurTexte);
-	font-family     : 'Nunito Sans', monospace;
 	margin          : 0;
 
 	min-height    : 100vh;
-	display       : flex;
 	flex-direction: column;
 
 }
@@ -70,7 +82,6 @@ main img {
 }
 
 #galerie.flex {
-	display        : flex;
 	flex-wrap      : wrap;
 	justify-content: space-around;
 
