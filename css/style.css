@@ -120,11 +120,3 @@ main img {
 	width           : 50%;
 	margin          : 0 auto;
 }
-
-/* TODO : grid fonctionnel */
-/* #galerie.grid {
-	width: 100%;
-	display              : grid;
-	grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
-	gap                  : 16px;
-} */
