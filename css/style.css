@@ -122,7 +122,7 @@ main img {
 }
 
 
-/* LIENS et README */
+/* LIENS et fichier de Documentation */
 a,
 a:link,
 a:hover{
@@ -133,4 +133,10 @@ img[alt=logo]{
 } 
 blockquote{
 	background-color: grey; 
+	padding: 0.25em 1em;
+}
+.container{
+	display: flex;
+	flex-direction: column; 
+	margin: 2em;
 }

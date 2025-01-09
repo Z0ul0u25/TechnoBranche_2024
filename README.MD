@@ -16,12 +16,7 @@ css, docs, images, js, et puis, les fichiers : README, index et Documentation
    
 2. __Pour sauvegarder votre activité__  
 Téléverser votre dossier «zippé» dans [notre Padlet collaboratif](https://padlet.com/marieandreegingras/vitrine-journ-e-d-couverte-c302-jvgkfqbdeo9bqu1q)
-
-  
-    
-![logo](images/logo_technobranche.png)
-  
-  
+ 
     
 > [Lien de téléchargement de VSCode (au besoin)](https://code.visualstudio.com/docs/?dv=win64user)
   
