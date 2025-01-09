@@ -120,3 +120,17 @@ main img {
 	width           : 50%;
 	margin          : 0 auto;
 }
+
+
+/* LIENS et README */
+a,
+a:link,
+a:hover{
+	color:aquamarine
+}
+img[alt=logo]{
+	width: 100px;
+} 
+blockquote{
+	background-color: grey; 
+}
